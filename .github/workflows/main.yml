@@ -43,7 +43,7 @@ jobs:
 
       # 🎯 Add WASM target
       - name: Add WASM target
-        run: rustup target add wasm32-unknown-unknown
+        run: rustup target add wasm32v1-none
 
       # ⚡ Install Stellar CLI (NEW)
       - name: Install Stellar CLI
