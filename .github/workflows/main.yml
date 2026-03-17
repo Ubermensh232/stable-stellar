@@ -12,13 +12,13 @@ on:
 jobs:
 
   # 🦀 CONTRACT (Stellar / Soroban)
-  contract:
+  contracts:
     name: Build & Test Contract
     runs-on: ubuntu-latest
 
     defaults:
       run:
-        working-directory: contract
+        working-directory: contracts
 
     steps:
       - name: Checkout repo
